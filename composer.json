@@ -2,7 +2,7 @@
     "name": "fadyreda99/laravel-api-response",
     "description": "A Laravel package for standardized API responses with pagination.",
     "keywords": ["laravel", "api", "response", "pagination", "trait"],
-    "homepage": "https://github.com/fadyreda99/laravel-api-response",
+    "homepage": "https://github.com/fadyreda99/laravel-api-response-package",
     "license": "MIT",
     "authors": [
         {
