@@ -1,0 +1,34 @@
+{
+    "name": "fadyreda99/laravel-api-response",
+    "description": "A Laravel package for standardized API responses with pagination.",
+    "keywords": ["laravel", "api", "response", "pagination", "trait"],
+    "homepage": "https://github.com/fadyreda99/laravel-api-response",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fady Reda",
+            "email": "fady.r.andrawes@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0 || ^11.0",
+        "illuminate/http": "^10.0 || ^11.0",
+        "illuminate/pagination": "^10.0 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "fadyreda99\\LaravelApiResponse\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "fadyreda99\\LaravelApiResponse\\Providers\\LaravelApiResponseServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
